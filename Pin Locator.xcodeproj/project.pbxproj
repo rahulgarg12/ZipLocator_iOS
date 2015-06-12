@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		356CA1951B2B47BA00C7C073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356CA1931B2B47BA00C7C073 /* Main.storyboard */; };
+		3577B9F21B2B2E6D00ED3AD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3577B9F11B2B2E6D00ED3AD5 /* main.m */; };
+		3577B9F51B2B2E6D00ED3AD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3577B9F41B2B2E6D00ED3AD5 /* AppDelegate.m */; };
+		3577B9F81B2B2E6D00ED3AD5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3577B9F71B2B2E6D00ED3AD5 /* FirstViewController.m */; };
+		3577B9FB1B2B2E6D00ED3AD5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3577B9FA1B2B2E6D00ED3AD5 /* SecondViewController.m */; };
+		3577BA001B2B2E6D00ED3AD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3577B9FF1B2B2E6D00ED3AD5 /* Images.xcassets */; };
+		3577BA031B2B2E6D00ED3AD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3577BA011B2B2E6D00ED3AD5 /* LaunchScreen.xib */; };
+		3577BA0F1B2B2E6D00ED3AD5 /* Pin_LocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3577BA0E1B2B2E6D00ED3AD5 /* Pin_LocatorTests.m */; };
+		3577BA1B1B2B31EA00ED3AD5 /* NetworkHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3577BA1A1B2B31EA00ED3AD5 /* NetworkHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3577BA091B2B2E6D00ED3AD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3577B9E41B2B2E6D00ED3AD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3577B9EB1B2B2E6D00ED3AD5;
+			remoteInfo = "Pin Locator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		356CA1941B2B47BA00C7C073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3577B9EC1B2B2E6D00ED3AD5 /* Pin Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pin Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3577B9F01B2B2E6D00ED3AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3577B9F11B2B2E6D00ED3AD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3577B9F31B2B2E6D00ED3AD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3577B9F41B2B2E6D00ED3AD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3577B9F61B2B2E6D00ED3AD5 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3577B9F71B2B2E6D00ED3AD5 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3577B9F91B2B2E6D00ED3AD5 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3577B9FA1B2B2E6D00ED3AD5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3577B9FF1B2B2E6D00ED3AD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3577BA021B2B2E6D00ED3AD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3577BA081B2B2E6D00ED3AD5 /* Pin LocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pin LocatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3577BA0D1B2B2E6D00ED3AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3577BA0E1B2B2E6D00ED3AD5 /* Pin_LocatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pin_LocatorTests.m; sourceTree = "<group>"; };
+		3577BA1A1B2B31EA00ED3AD5 /* NetworkHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkHandler.m; sourceTree = "<group>"; };
+		3577BA1C1B2B31FC00ED3AD5 /* NetworkHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkHandler.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3577B9E91B2B2E6D00ED3AD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3577BA051B2B2E6D00ED3AD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3577B9E31B2B2E6D00ED3AD5 = {
+			isa = PBXGroup;
+			children = (
+				3577B9EE1B2B2E6D00ED3AD5 /* Pin Locator */,
+				3577BA0B1B2B2E6D00ED3AD5 /* Pin LocatorTests */,
+				3577B9ED1B2B2E6D00ED3AD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3577B9ED1B2B2E6D00ED3AD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3577B9EC1B2B2E6D00ED3AD5 /* Pin Locator.app */,
+				3577BA081B2B2E6D00ED3AD5 /* Pin LocatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3577B9EE1B2B2E6D00ED3AD5 /* Pin Locator */ = {
+			isa = PBXGroup;
+			children = (
+				3577B9F31B2B2E6D00ED3AD5 /* AppDelegate.h */,
+				3577B9F41B2B2E6D00ED3AD5 /* AppDelegate.m */,
+				3577B9F61B2B2E6D00ED3AD5 /* FirstViewController.h */,
+				3577B9F71B2B2E6D00ED3AD5 /* FirstViewController.m */,
+				3577B9F91B2B2E6D00ED3AD5 /* SecondViewController.h */,
+				3577B9FA1B2B2E6D00ED3AD5 /* SecondViewController.m */,
+				356CA1931B2B47BA00C7C073 /* Main.storyboard */,
+				3577BA1C1B2B31FC00ED3AD5 /* NetworkHandler.h */,
+				3577BA1A1B2B31EA00ED3AD5 /* NetworkHandler.m */,
+				3577B9FF1B2B2E6D00ED3AD5 /* Images.xcassets */,
+				3577BA011B2B2E6D00ED3AD5 /* LaunchScreen.xib */,
+				3577B9EF1B2B2E6D00ED3AD5 /* Supporting Files */,
+			);
+			path = "Pin Locator";
+			sourceTree = "<group>";
+		};
+		3577B9EF1B2B2E6D00ED3AD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3577B9F01B2B2E6D00ED3AD5 /* Info.plist */,
+				3577B9F11B2B2E6D00ED3AD5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3577BA0B1B2B2E6D00ED3AD5 /* Pin LocatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3577BA0E1B2B2E6D00ED3AD5 /* Pin_LocatorTests.m */,
+				3577BA0C1B2B2E6D00ED3AD5 /* Supporting Files */,
+			);
+			path = "Pin LocatorTests";
+			sourceTree = "<group>";
+		};
+		3577BA0C1B2B2E6D00ED3AD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3577BA0D1B2B2E6D00ED3AD5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3577B9EB1B2B2E6D00ED3AD5 /* Pin Locator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3577BA121B2B2E6D00ED3AD5 /* Build configuration list for PBXNativeTarget "Pin Locator" */;
+			buildPhases = (
+				3577B9E81B2B2E6D00ED3AD5 /* Sources */,
+				3577B9E91B2B2E6D00ED3AD5 /* Frameworks */,
+				3577B9EA1B2B2E6D00ED3AD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pin Locator";
+			productName = "Pin Locator";
+			productReference = 3577B9EC1B2B2E6D00ED3AD5 /* Pin Locator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3577BA071B2B2E6D00ED3AD5 /* Pin LocatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3577BA151B2B2E6D00ED3AD5 /* Build configuration list for PBXNativeTarget "Pin LocatorTests" */;
+			buildPhases = (
+				3577BA041B2B2E6D00ED3AD5 /* Sources */,
+				3577BA051B2B2E6D00ED3AD5 /* Frameworks */,
+				3577BA061B2B2E6D00ED3AD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3577BA0A1B2B2E6D00ED3AD5 /* PBXTargetDependency */,
+			);
+			name = "Pin LocatorTests";
+			productName = "Pin LocatorTests";
+			productReference = 3577BA081B2B2E6D00ED3AD5 /* Pin LocatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3577B9E41B2B2E6D00ED3AD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Rahul;
+				TargetAttributes = {
+					3577B9EB1B2B2E6D00ED3AD5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					3577BA071B2B2E6D00ED3AD5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3577B9EB1B2B2E6D00ED3AD5;
+					};
+				};
+			};
+			buildConfigurationList = 3577B9E71B2B2E6D00ED3AD5 /* Build configuration list for PBXProject "Pin Locator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3577B9E31B2B2E6D00ED3AD5;
+			productRefGroup = 3577B9ED1B2B2E6D00ED3AD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3577B9EB1B2B2E6D00ED3AD5 /* Pin Locator */,
+				3577BA071B2B2E6D00ED3AD5 /* Pin LocatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3577B9EA1B2B2E6D00ED3AD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356CA1951B2B47BA00C7C073 /* Main.storyboard in Resources */,
+				3577BA031B2B2E6D00ED3AD5 /* LaunchScreen.xib in Resources */,
+				3577BA001B2B2E6D00ED3AD5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3577BA061B2B2E6D00ED3AD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3577B9E81B2B2E6D00ED3AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3577B9FB1B2B2E6D00ED3AD5 /* SecondViewController.m in Sources */,
+				3577B9F51B2B2E6D00ED3AD5 /* AppDelegate.m in Sources */,
+				3577B9F81B2B2E6D00ED3AD5 /* FirstViewController.m in Sources */,
+				3577B9F21B2B2E6D00ED3AD5 /* main.m in Sources */,
+				3577BA1B1B2B31EA00ED3AD5 /* NetworkHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3577BA041B2B2E6D00ED3AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3577BA0F1B2B2E6D00ED3AD5 /* Pin_LocatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3577BA0A1B2B2E6D00ED3AD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3577B9EB1B2B2E6D00ED3AD5 /* Pin Locator */;
+			targetProxy = 3577BA091B2B2E6D00ED3AD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		356CA1931B2B47BA00C7C073 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356CA1941B2B47BA00C7C073 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3577BA011B2B2E6D00ED3AD5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3577BA021B2B2E6D00ED3AD5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3577BA101B2B2E6D00ED3AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3577BA111B2B2E6D00ED3AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3577BA131B2B2E6D00ED3AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pin Locator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3577BA141B2B2E6D00ED3AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pin Locator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3577BA161B2B2E6D00ED3AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pin LocatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pin Locator.app/Pin Locator";
+			};
+			name = Debug;
+		};
+		3577BA171B2B2E6D00ED3AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pin LocatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pin Locator.app/Pin Locator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3577B9E71B2B2E6D00ED3AD5 /* Build configuration list for PBXProject "Pin Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3577BA101B2B2E6D00ED3AD5 /* Debug */,
+				3577BA111B2B2E6D00ED3AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3577BA121B2B2E6D00ED3AD5 /* Build configuration list for PBXNativeTarget "Pin Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3577BA131B2B2E6D00ED3AD5 /* Debug */,
+				3577BA141B2B2E6D00ED3AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3577BA151B2B2E6D00ED3AD5 /* Build configuration list for PBXNativeTarget "Pin LocatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3577BA161B2B2E6D00ED3AD5 /* Debug */,
+				3577BA171B2B2E6D00ED3AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3577B9E41B2B2E6D00ED3AD5 /* Project object */;
+}
