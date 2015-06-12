@@ -17,7 +17,12 @@
 
 @property int responseCode;
 
+@property NSString *mapLat;
+@property NSString *mapLong;
+
 - (void) fetchData : (NSString*) pinString;
 - (void) getFromArray;
+
+- (void) fetchDataForMap;
 
 @end

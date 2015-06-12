@@ -30,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		356CA1941B2B47BA00C7C073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		356CA1961B2B59F400C7C073 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		3577B9EC1B2B2E6D00ED3AD5 /* Pin Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pin Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3577B9F01B2B2E6D00ED3AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3577B9F11B2B2E6D00ED3AD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,6 +70,7 @@
 		3577B9E31B2B2E6D00ED3AD5 = {
 			isa = PBXGroup;
 			children = (
+				356CA1961B2B59F400C7C073 /* MapKit.framework */,
 				3577B9EE1B2B2E6D00ED3AD5 /* Pin Locator */,
 				3577BA0B1B2B2E6D00ED3AD5 /* Pin LocatorTests */,
 				3577B9ED1B2B2E6D00ED3AD5 /* Products */,
