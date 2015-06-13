@@ -29,19 +29,24 @@
 
 
 - (IBAction)findBtn:(id)sender {
-    NetworkHandler *netHandlerObject = [[NetworkHandler alloc] init];
-    
-    [netHandlerObject fetchData:_txtField.text];
-    
-    if (netHandlerObject.responseCode == 323) {
-        _resultTxt.text = @"Please enter a valid Postal Code";
+    if ([[_txtField text] length] == 0) {
+        NSLog(@"Postal code field can't be nil");
     }
     else {
-        NSString *dictData = [NSString stringWithFormat:@" PIN : %@\n Region : %@\n City : %@\n Country : %@",                      netHandlerObject.pincode,
+        NetworkHandler *netHandlerObject = [NetworkHandler sharedHandler];
+    
+        [netHandlerObject fetchData:_txtField.text];
+    
+        if (netHandlerObject.responseCode == 323) {
+            _resultTxt.text = @"Please enter a valid Postal Code";
+        }
+        else {
+            NSString *dictData = [NSString stringWithFormat:@" PIN : %@\n Region : %@\n City : %@\n Country : %@",                      netHandlerObject.pincode,
                           netHandlerObject.region,
                           netHandlerObject.city,
                           netHandlerObject.country];
-        _resultTxt.text = dictData;
+            _resultTxt.text = dictData;
+        }
     }
 }
 

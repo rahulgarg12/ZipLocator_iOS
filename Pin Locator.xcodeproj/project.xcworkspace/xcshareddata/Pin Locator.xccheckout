@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A99BC156-65A6-4562-8F01-F0BD148EB4F5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Pin Locator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0C549BB3DDC9931F961E45F7C2DD0F0532BB0809</key>
+		<string>https://github.com/rahulgarg12/ZipLocator_iOS.git</string>
+		<key>ED0078F85F560AC2489CC7D7963CA6E1A15F6D5D</key>
+		<string>https://github.com/rahulgarg12/IP_Lookup_iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Pin Locator.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0C549BB3DDC9931F961E45F7C2DD0F0532BB0809</key>
+		<string>../..</string>
+		<key>ED0078F85F560AC2489CC7D7963CA6E1A15F6D5D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rahulgarg12/ZipLocator_iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0C549BB3DDC9931F961E45F7C2DD0F0532BB0809</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ED0078F85F560AC2489CC7D7963CA6E1A15F6D5D</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0C549BB3DDC9931F961E45F7C2DD0F0532BB0809</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZipLocator_iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
