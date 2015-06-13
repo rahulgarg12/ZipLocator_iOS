@@ -7,6 +7,7 @@
 //
 
 #import "SecondViewController.h"
+#import "NetworkHandler.h"
 
 @interface SecondViewController ()
 
@@ -25,19 +26,22 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
-    CLLocationCoordinate2D locationZoom;
-    locationZoom.latitude = 46.0;
-    locationZoom.longitude= 86.0;
+    NetworkHandler *netHandlerObject = [NetworkHandler sharedHandler];
     
-    MKCoordinateRegion setViewRegion = MKCoordinateRegionMakeWithDistance(locationZoom, 1000, 1000);
+    double mapLat = [netHandlerObject.mapLat doubleValue];
+    double mapLong = [netHandlerObject.mapLong doubleValue];
+    
+    CLLocationCoordinate2D location;
+    location.latitude = mapLat;
+    location.longitude= mapLong;
+    
+    MKCoordinateRegion setViewRegion = MKCoordinateRegionMakeWithDistance(location, 500 ,50000);
+    
+    MKPointAnnotation *annotation = [[MKPointAnnotation alloc] init];
+    annotation.coordinate = location;
+    [_mapview addAnnotation:annotation];
     
     [_mapview setRegion:setViewRegion animated:YES];
-    
-    
-}
-
-- (void) fetchLatLong {
-    
 }
 
 @end

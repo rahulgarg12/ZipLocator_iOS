@@ -13,6 +13,5 @@
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapview;
 
-
 @end
 

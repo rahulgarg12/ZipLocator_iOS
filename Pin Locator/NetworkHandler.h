@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NetworkHandler : NSObject
+@interface NetworkHandler : NSObject {
+}
 
 @property NSString *pincode;
 @property NSString *country;
@@ -17,12 +18,12 @@
 
 @property int responseCode;
 
-@property NSString *mapLat;
-@property NSString *mapLong;
+@property (nonatomic,strong) NSString *mapLat;
+@property (nonatomic,strong) NSString *mapLong;
+
++ (id)sharedHandler;
 
 - (void) fetchData : (NSString*) pinString;
-- (void) getFromArray;
-
 - (void) fetchDataForMap;
 
 @end

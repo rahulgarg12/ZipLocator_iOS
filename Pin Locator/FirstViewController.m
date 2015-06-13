@@ -33,7 +33,7 @@
         NSLog(@"Postal code field can't be nil");
     }
     else {
-        NetworkHandler *netHandlerObject = [[NetworkHandler alloc] init];
+        NetworkHandler *netHandlerObject = [NetworkHandler sharedHandler];
     
         [netHandlerObject fetchData:_txtField.text];
     
