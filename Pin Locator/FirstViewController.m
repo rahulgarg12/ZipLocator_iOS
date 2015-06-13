@@ -50,9 +50,18 @@
     }
 }
 
--(void)textFieldShouldReturn:(UITextField *)textField
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
 {
     [_txtField resignFirstResponder];
+    return YES;
+}
+
+-(BOOL) textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string{
+    if([_txtField.text length] >= 6){
+        
+        [textField resignFirstResponder];
+    }
+    return YES;
 }
 
 @end
